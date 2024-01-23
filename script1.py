@@ -4,13 +4,13 @@
 
 def calcTotal(amt,tax,name):
     mytotal = amt * (1+tax)
-    print(f"{myname}, the total of your purchase is ${total:,.2f}")
+    print(f"{myname}, the total of your purchase is ${mytotal:,.2f}")
 
 myname = 'Johnny'
-price = 1,560
-thetax = 8.25%
+price = 1560
+thetax = .825
 
-calcTotal(thetax,price,name)
+calcTotal(thetax,price,myname)
 
 
 
@@ -20,8 +20,9 @@ calcTotal(thetax,price,name)
 # print out ONLY the integers in the list below #
 list1 = [1,'two',3.2,'four',5]
 
-for i in list1:
+for i in list1[::2]:
     print(i)
+    
 
 
 
