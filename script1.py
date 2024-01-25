@@ -8,9 +8,9 @@ def calcTotal(amt,tax,name):
 
 myname = 'Johnny'
 price = 1560
-thetax = .825
+thetax = 8.25/100
 
-calcTotal(thetax,price,myname)
+calcTotal(price,thetax,myname)
 
 
 
@@ -20,8 +20,9 @@ calcTotal(thetax,price,myname)
 # print out ONLY the integers in the list below #
 list1 = [1,'two',3.2,'four',5]
 
-for i in list1[::2]:
-    print(i)
+for i in list1:
+    if type(i) == int:
+        print(i)
     
 
 
